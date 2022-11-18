@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let person = {
+        //     fname: 'aye',
+        //     lname: 'khaing'
+        // }
+        // let { fname, lname } = getAge() || {};
+        // console.log(fname);
+
+        // function getAge() {
+        //     return null;
+        // }
+
+        // let person1 = {
+        //     name: {
+        //         fname: 'kim',
+        //         lname: 'jin'
+        //     },
+        //     id: '1'
+        // }
+        // let { name: { fname, lname }, id } = person1;
+        // console.log(fname);
+        // console.log(id);
+
+        function getscore() {
+            return [0, 1, 2, 3, 4, 5]
+        }
+        let [a, b, ...others] = getscore();
+        console.log(others);
+    </script>
+</body>
+
+</html>
